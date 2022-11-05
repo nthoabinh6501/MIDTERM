@@ -17,7 +17,7 @@ void fsm_auto_run(){
 	case INIT:
 		display7SEG(0);
 		status = BUT0;
-		setTimer2(200);
+		setTimer2(1000);
 		break;
 
 	case AUTO_0:
